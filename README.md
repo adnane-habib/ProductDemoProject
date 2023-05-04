@@ -12,6 +12,6 @@ The fillowing procedure is created to be used in searching for item in the datab
 <CREATE PROCEDURE product_search (IN productID varchar (100))
 >
 <SELECT productCode, productName, productLine, productDescription from products where productCode = (productID)>
->
+
 >$$
 >
